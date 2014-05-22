@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4C82D631192C75AC00DFEAD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C93A429192B434500F7D58F /* Main.storyboard */; };
-		4C82D635192CC4A400DFEAD4 /* Appacitive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C82D634192CC4A400DFEAD4 /* Appacitive.framework */; };
 		4C93A417192B41A400F7D58F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C93A410192B41A400F7D58F /* AppDelegate.m */; };
 		4C93A418192B41A400F7D58F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C93A412192B41A400F7D58F /* LoginViewController.m */; };
 		4C93A419192B41A400F7D58F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C93A414192B41A400F7D58F /* MBProgressHUD.m */; };
@@ -23,7 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4C82D634192CC4A400DFEAD4 /* Appacitive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Appacitive.framework; sourceTree = "<group>"; };
 		4C93A40F192B41A400F7D58F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Let's Do/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
 		4C93A410192B41A400F7D58F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Let's Do/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
 		4C93A411192B41A400F7D58F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = "Let's Do/LoginViewController.h"; sourceTree = SOURCE_ROOT; };
@@ -51,7 +49,6 @@
 			files = (
 				4CED07151924D9FB000B8D0A /* CoreGraphics.framework in Frameworks */,
 				4CED07171924D9FB000B8D0A /* UIKit.framework in Frameworks */,
-				4C82D635192CC4A400DFEAD4 /* Appacitive.framework in Frameworks */,
 				4CED07131924D9FB000B8D0A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,7 +76,6 @@
 		4CED07111924D9FB000B8D0A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4C82D634192CC4A400DFEAD4 /* Appacitive.framework */,
 				4CED07121924D9FB000B8D0A /* Foundation.framework */,
 				4CED07141924D9FB000B8D0A /* CoreGraphics.framework */,
 				4CED07161924D9FB000B8D0A /* UIKit.framework */,
