@@ -14,8 +14,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [Appacitive registerAPIKey:@"sjzGiu1HcfuzvZAFNWQNsrizoflOUhA2qHxycfQ4Pd0=" useLiveEnvironment:NO];
-    [APLogger enableLogging:YES];
-    [APLogger enableVerboseMode:YES];
+    [[APLogger sharedLogger] enableLogging:YES];
+    [[APLogger sharedLogger] enableVerboseMode:YES];
     return YES;
 }
 

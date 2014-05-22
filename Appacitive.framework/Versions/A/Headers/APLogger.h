@@ -17,26 +17,74 @@ typedef enum {
 
 @interface APLogger : NSObject
 
+@property (nonatomic) BOOL isVerbose;
+@property (nonatomic) BOOL isLoggingEnabled;
+
 /**
- Method to instantiate and return a static shared logger instance.
+ Method to instantiate a logger instance. This logger logs in the default error mode.
  
- @return static instance of a shared logger.
+ @return A new APlogger instance.
+ */
+- (instancetype) init;
+
+/**
+ Method to instantiate a logger in verbose mode.
+ 
+ @param logEnabled  Whether logging should be enabled.
+ @param verboseMode Whether logging in verbose mode should be enabled.
+ 
+ @return A new APLogger instance with specified settings.
+ */
+
+- (instancetype) initWithLoggingEnabled:(BOOL)logEnabled verboseMode:(BOOL)verboseMode;
+
+/**
+ Method to instantiate a logger instance. This logger logs in the default error mode.
+ 
+ @return A new APlogger instance.
+ */
++ (instancetype) logger;
+
+/**
+ Method to instantiate a logger in verbose mode.
+ 
+ @param logEnabled  Whether logging should be enabled.
+ @param verboseMode Whether logging in verbose mode should be enabled.
+ 
+ @return A new APLogger instance with specified settings.
+ */
++ (instancetype) loggerWithLoggingEnabled:(BOOL)logEnabled verboseMode:(BOOL)verboseMode;;
+
+/**
+ Method to instantiate and return a static logger instance. This logger logs in the default error mode.
+ 
+ @return static instance of a logger.
  */
 + (instancetype) sharedLogger;
+
+/**
+ Method to instantiate and return a static logger instance in verbose mode.
+ 
+ @param logEnabled  Whether logging should be enabled.
+ @param verboseMode Whether logging in verbose mode should be enabled.
+ 
+ @return static instance of a logger with specified settings.
+ */
++ (instancetype) sharedLoggerWithLoggingEnabled:(BOOL)logEnabled verboseMode:(BOOL)verboseMode;;
 
 /**
  Method to enable logging, which is disabled by default.
  
  @param answer Whether you want to enable logging.
  */
-+ (void) enableLogging:(BOOL)answer;
+- (void) enableLogging:(BOOL)answer;
 
 /**
  The default logging mode is set to error that will only log error. Use this method to enable logging everything i.e. in debug mode.
  
  @param answer Whether you want  to enable verbose mode logging.
  */
-+ (void) enableVerboseMode:(BOOL)answer;
+- (void) enableVerboseMode:(BOOL)answer;
 
 /**
  Method to log message with specified message type.

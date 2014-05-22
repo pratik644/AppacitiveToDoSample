@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C82D631192C75AC00DFEAD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C93A429192B434500F7D58F /* Main.storyboard */; };
+		4C82D635192CC4A400DFEAD4 /* Appacitive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C82D634192CC4A400DFEAD4 /* Appacitive.framework */; };
 		4C93A417192B41A400F7D58F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C93A410192B41A400F7D58F /* AppDelegate.m */; };
 		4C93A418192B41A400F7D58F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C93A412192B41A400F7D58F /* LoginViewController.m */; };
 		4C93A419192B41A400F7D58F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C93A414192B41A400F7D58F /* MBProgressHUD.m */; };
@@ -15,13 +17,13 @@
 		4C93A426192B432000F7D58F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C93A424192B432000F7D58F /* InfoPlist.strings */; };
 		4C93A428192B432A00F7D58F /* Let's Do-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 4C93A41E192B41E200F7D58F /* Let's Do-Prefix.pch */; };
 		4C93A42D192B443400F7D58F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C93A42C192B443400F7D58F /* Images.xcassets */; };
-		4CA860D71926676700217CF9 /* Appacitive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA860D61926676700217CF9 /* Appacitive.framework */; };
 		4CED07131924D9FB000B8D0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CED07121924D9FB000B8D0A /* Foundation.framework */; };
 		4CED07151924D9FB000B8D0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CED07141924D9FB000B8D0A /* CoreGraphics.framework */; };
 		4CED07171924D9FB000B8D0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CED07161924D9FB000B8D0A /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C82D634192CC4A400DFEAD4 /* Appacitive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Appacitive.framework; sourceTree = "<group>"; };
 		4C93A40F192B41A400F7D58F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Let's Do/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
 		4C93A410192B41A400F7D58F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Let's Do/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
 		4C93A411192B41A400F7D58F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = "Let's Do/LoginViewController.h"; sourceTree = SOURCE_ROOT; };
@@ -36,7 +38,6 @@
 		4C93A425192B432000F7D58F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "Let's Do/en.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
 		4C93A42A192B434500F7D58F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Let's Do/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
 		4C93A42C192B443400F7D58F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Let's Do/Images.xcassets"; sourceTree = SOURCE_ROOT; };
-		4CA860D61926676700217CF9 /* Appacitive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Appacitive.framework; sourceTree = "<group>"; };
 		4CED070F1924D9FB000B8D0A /* Let's Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Let's Do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CED07121924D9FB000B8D0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4CED07141924D9FB000B8D0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -50,7 +51,7 @@
 			files = (
 				4CED07151924D9FB000B8D0A /* CoreGraphics.framework in Frameworks */,
 				4CED07171924D9FB000B8D0A /* UIKit.framework in Frameworks */,
-				4CA860D71926676700217CF9 /* Appacitive.framework in Frameworks */,
+				4C82D635192CC4A400DFEAD4 /* Appacitive.framework in Frameworks */,
 				4CED07131924D9FB000B8D0A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,7 +79,7 @@
 		4CED07111924D9FB000B8D0A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4CA860D61926676700217CF9 /* Appacitive.framework */,
+				4C82D634192CC4A400DFEAD4 /* Appacitive.framework */,
 				4CED07121924D9FB000B8D0A /* Foundation.framework */,
 				4CED07141924D9FB000B8D0A /* CoreGraphics.framework */,
 				4CED07161924D9FB000B8D0A /* UIKit.framework */,
@@ -167,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C82D631192C75AC00DFEAD4 /* Main.storyboard in Resources */,
 				4C93A42D192B443400F7D58F /* Images.xcassets in Resources */,
 				4C93A426192B432000F7D58F /* InfoPlist.strings in Resources */,
 				4C93A428192B432A00F7D58F /* Let's Do-Prefix.pch in Resources */,

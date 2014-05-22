@@ -41,9 +41,10 @@
  Method to make a network request
  
  @param urlRequest NSURLRequest object for the request that needs to be made.
+ @param callingSelector The selector/method that calls this selector to make a request.
  @param requestSuccessBlock Block invoked when the network request operation is successful.
  @param requestFailureBlock Block invoked when the network request operation is unsuccessful.
  */
-+ (void) makeAsyncURLRequest:(NSMutableURLRequest*)urlRequest caller:(const char*)caller successHandler:(APResultSuccessBlock)requestSuccessBlock failureHandler:(APFailureBlock)requestFailureBlock;
++ (void) makeAsyncURLRequest:(NSMutableURLRequest*)urlRequest callingSelector:(const char*)callingSelector successHandler:(APResultSuccessBlock)requestSuccessBlock failureHandler:(APFailureBlock)requestFailureBlock;
 
 @end
