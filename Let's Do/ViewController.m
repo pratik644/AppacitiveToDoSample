@@ -21,10 +21,10 @@
 
 -(void)logoutButtonTapped {
     [APUser logOutCurrentUserWithSuccessHandler:^{
-        [self performSegueWithIdentifier:@"showLoginView" sender:nil];
     } failureHandler:^(APError *error) {
         NSLog(@"%@",error);
     }];
+    [self performSegueWithIdentifier:@"showLoginView" sender:nil];
 }
 
 - (IBAction)addButtonTapped {
