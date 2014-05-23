@@ -1,4 +1,4 @@
-# Windows Phone Todo App
+#  iOS Todo App
 
 A simple todo app backed by [Appacitive Cloud Platform](http://www.appacitive.com) and uses [Appacitive iOS SDK](http://devcenter.appacitive.com/ios/) for managing application data. 
 
@@ -14,7 +14,7 @@ If you don't have an Appacitive Account, [sign up](https://portal.appacitive.com
 To model your application backend on Appacitive Platform, please watch [this](http://player.vimeo.com/video/89849527) video. If you already have the backend ready with you, you can jump to the next step.
 
 ##### Step 2: Download the source code
-You can download the source code for this sample Todo App from https://github.com/apalsapure/wp-todoapp/archive/master.zip.
+You can download the source code for this sample Todo App from [here](https://github.com/pratik644/AppacitiveToDoSample/archive/master.zip).
 
 ##### Step 3: Authenticating the app
 Once you have downloaded the source code, launch the xcode project and open the Appdelegate.m file. In the `application:didLaunchWithOptions:` replace the `YOUR_API_KEY` with your Appacitive Application API Key.
